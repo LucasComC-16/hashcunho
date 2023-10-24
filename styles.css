@@ -8,16 +8,35 @@ header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0;
+}
+
+header p {
+    font-size: 18px;
 }
 
 section {
-    padding: 20px;
+    padding: 40px 20px;
 }
 
-.intro, .habitat, .behavior, .diet, .distribution {
+.habitat, .behavior, .diet, .countries {
     background-color: #f9f9f9;
     margin-bottom: 20px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-container img {
+    margin: 10px;
 }
 
 footer {
