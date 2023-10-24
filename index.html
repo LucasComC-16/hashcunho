@@ -1,51 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site sobre Golfinhos</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Golfinhos Maravilhosos</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="sobre.html">Sobre os Golfinhos</a></li>
-                <li><a href="habitat.html">Habitat</a></li>
-                <li><a href="comportamento.html">Comportamento</a></li>
-                <li><a href="alimentacao.html">Alimentação</a></li>
-            </ul>
-        </nav>
+        <h1>Bem-vindo ao Mundo dos Golfinhos</h1>
     </header>
 
-    <div class="container">
-        <h1>Bem-vindo ao Mundo dos Golfinhos</h1>
-        <p>Descubra informações fascinantes sobre essas criaturas marinhas inteligentes e sociais.</p>
-    </div>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#caracteristicas">Características</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
 
-    <div class="container">
-        <h2>Sobre os Golfinhos</h2>
-        <p>Os golfinhos são mamíferos marinhos que pertencem à família dos cetáceos. Eles são conhecidos por sua inteligência, comunicação complexa e comportamento social. Existem várias espécies de golfinhos em todo o mundo, cada uma com suas próprias características únicas.</p>
-    </div>
+    <section id="sobre">
+        <h2>Sobre Golfinhos</h2>
+        <p>Os golfinhos são mamíferos marinhos conhecidos por sua inteligência e comportamento amigável.</p>
+    </section>
 
-    <div class="container">
-        <h2>Onde os Golfinhos Vivem</h2>
-        <p>Os golfinhos habitam oceanos, mares, baías e até mesmo alguns rios em todo o planeta. Eles são adaptados para viver em ambientes aquáticos e são frequentemente avistados saltando nas ondas ou nadando em grupos.</p>
-    </div>
+    <section id="caracteristicas">
+        <h2>Características dos Golfinhos</h2>
+        <p>Os golfinhos possuem um corpo hidrodinâmico, nadadeiras e um focinho distintivo chamado de rostro.</p>
+    </section>
 
-    <div class="container">
-        <h2>Comportamento dos Golfinhos</h2>
-        <p>Os golfinhos são animais sociais que vivem em grupos chamados de "pods" ou "cardumes". Eles se comunicam através de sons, cliques e assobios, e essa comunicação desempenha um papel fundamental em suas atividades diárias, como caça e reprodução.</p>
-    </div>
+    <section id="galeria">
+        <h2>Galeria de Golfinhos</h2>
+        <img src="https://via.placeholder.com/150" alt="Golfinho 1">
+        <img src="https://via.placeholder.com/150" alt="Golfinho 2">
+        <img src="https://via.placeholder.com/150" alt="Golfinho 3">
+    </section>
 
-    <div class="container">
-        <h2>Alimentação dos Golfinhos</h2>
-        <p>A dieta dos golfinhos varia de acordo com a espécie e a localização geográfica. Geralmente, eles se alimentam de peixes, lulas e crustáceos. Golfinhos são excelentes caçadores e usam sua agilidade e inteligência para capturar presas.</p>
-    </div>
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Para mais informações sobre golfinhos, entre em contato conosco através do formulário abaixo:</p>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 
     <footer>
-        <p>&copy; 2023 Site sobre Golfinhos</p>
+        <p>&copy; 2023 Golfinhos Maravilhosos</p>
     </footer>
 </body>
+
 </html>
