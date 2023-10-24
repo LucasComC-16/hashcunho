@@ -11,35 +11,36 @@
 <body>
     <header>
         <h1>Bem-vindo ao Mundo dos Golfinhos</h1>
+        <p>Conheça esses seres incríveis!</p>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#caracteristicas">Características</a></li>
-            <li><a href="#galeria">Galeria</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
-
-    <section id="sobre">
+    <section class="about">
         <h2>Sobre Golfinhos</h2>
-        <p>Os golfinhos são mamíferos marinhos conhecidos por sua inteligência e comportamento amigável.</p>
+        <p>Os golfinhos são mamíferos marinhos conhecidos por sua inteligência, natureza brincalhona e comportamento amigável. Eles são frequentemente vistos como criaturas amigáveis e interativas, capazes de se comunicar e formar laços com humanos e outras espécies marinhas.</p>
     </section>
 
-    <section id="caracteristicas">
-        <h2>Características dos Golfinhos</h2>
-        <p>Os golfinhos possuem um corpo hidrodinâmico, nadadeiras e um focinho distintivo chamado de rostro.</p>
+    <section class="highlight">
+        <h2>Conheça Nossos Golfinhos Destaque</h2>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Golfinho Destaque">
+            <h3>Golfinho Esperto</h3>
+            <p>Conheça o golfinho mais esperto de nossa equipe. Ele adora brincar com bolas e é extremamente curioso.</p>
+        </div>
     </section>
 
-    <section id="galeria">
+    <section class="gallery">
         <h2>Galeria de Golfinhos</h2>
-        <img src="https://via.placeholder.com/150" alt="Golfinho 1">
-        <img src="https://via.placeholder.com/150" alt="Golfinho 2">
-        <img src="https://via.placeholder.com/150" alt="Golfinho 3">
+        <div class="image-container">
+            <img src="https://via.placeholder.com/150" alt="Golfinho 1">
+            <img src="https://via.placeholder.com/150" alt="Golfinho 2">
+            <img src="https://via.placeholder.com/150" alt="Golfinho 3">
+            <img src="https://via.placeholder.com/150" alt="Golfinho 4">
+            <img src="https://via.placeholder.com/150" alt="Golfinho 5">
+            <img src="https://via.placeholder.com/150" alt="Golfinho 6">
+        </div>
     </section>
 
-    <section id="contato">
+    <section class="contact">
         <h2>Entre em Contato</h2>
         <p>Para mais informações sobre golfinhos, entre em contato conosco através do formulário abaixo:</p>
         <form>
@@ -47,6 +48,8 @@
             <input type="text" id="nome" name="nome"><br>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email"><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
             <input type="submit" value="Enviar">
         </form>
     </section>
@@ -57,3 +60,4 @@
 </body>
 
 </html>
+
